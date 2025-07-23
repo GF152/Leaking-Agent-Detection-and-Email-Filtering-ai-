@@ -142,7 +142,6 @@ This project is licensed under the MIT License. See LICENSE file for details.
 ## Support
 
 For technical support or questions:
-- Email: support@leakingagentdetection.com
 - Documentation: https://docs.leakingagentdetection.com
 - Issues: Submit via the project repository
 
