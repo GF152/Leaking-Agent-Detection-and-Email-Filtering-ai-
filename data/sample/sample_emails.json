@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "type": "spam",
+    "content": "Congratulations! You've won $1,000,000 in our lottery! Click here to claim your prize now! Limited time offer!",
+    "headers": {
+      "from": "winner@lottery-spam.com",
+      "to": "user@company.com",
+      "subject": "\ud83c\udf89 YOU WON! Claim your $1M prize now!"
+    },
+    "expected_classification": {
+      "is_spam": true,
+      "is_phishing": false,
+      "is_malware": false
+    }
+  },
+  {
+    "id": 2,
+    "type": "phishing",
+    "content": "Your bank account has been suspended. Please verify your credentials immediately by clicking this link: http://fake-bank-site.com/verify",
+    "headers": {
+      "from": "security@bank-alert.com",
+      "to": "user@company.com",
+      "subject": "URGENT: Account Suspended - Immediate Action Required"
+    },
+    "expected_classification": {
+      "is_spam": false,
+      "is_phishing": true,
+      "is_malware": false
+    }
+  },
+  {
+    "id": 3,
+    "type": "legitimate",
+    "content": "Hi team, please find attached the quarterly report. Let me know if you have any questions about the financial projections.",
+    "headers": {
+      "from": "manager@company.com",
+      "to": "team@company.com",
+      "subject": "Q3 Financial Report"
+    },
+    "expected_classification": {
+      "is_spam": false,
+      "is_phishing": false,
+      "is_malware": false
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "user_id": "J.Smith",
+    "department": "Finance",
+    "typical_behavior": {
+      "work_hours": [
+        9,
+        17
+      ],
+      "avg_emails_per_day": 25,
+      "common_recipients": [
+        "finance@company.com",
+        "manager@company.com"
+      ],
+      "data_access_pattern": "high_financial_low_hr"
+    },
+    "recent_activities": [
+      {
+        "timestamp": "2025-07-23T22:30:00",
+        "activity": "large_file_download",
+        "details": "Downloaded 500MB financial data after hours",
+        "risk_score": 75
+      }
+    ]
+  },
+  {
+    "user_id": "M.Johnson",
+    "department": "IT",
+    "typical_behavior": {
+      "work_hours": [
+        8,
+        18
+      ],
+      "avg_emails_per_day": 15,
+      "common_recipients": [
+        "it-team@company.com",
+        "support@company.com"
+      ],
+      "data_access_pattern": "high_system_access"
+    },
+    "recent_activities": [
+      {
+        "timestamp": "2025-07-23T19:45:00",
+        "activity": "privilege_escalation",
+        "details": "Accessed admin panel outside normal hours",
+        "risk_score": 45
+      }
+    ]
+  }
+]
